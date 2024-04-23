@@ -1,5 +1,6 @@
 "use client";
-import React, { useState, useTransition } from 'react'
+import React from 'react'
+import {useState, useTransition} from 'react'
 import Image from 'next/image'
 import Tabbtn from './Tabbtn';
 
@@ -39,7 +40,7 @@ const data = [{
 ]
 
 
-const about = () => {
+const About = () => {
   const [tab, setTab] = useState("skills")
   const [isPending, startTransition] = useTransition()
 
@@ -92,4 +93,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

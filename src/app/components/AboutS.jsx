@@ -9,13 +9,11 @@ const data = [{
   id: "skills",
   content:(
     <ul className='list-disc pl-2'>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
       <li>Django</li>
       <li>NodeJS</li>
+      <li>React</li>
+      <li>Python</li>
       <li>PostgreSQL</li>
-      <li>MySQL</li>
       <li>Git</li>
     </ul>
   )},
@@ -33,6 +31,8 @@ const data = [{
     id: "experiencia",
     content:(
       <ul className='list-disc pl-2'>
+        <li>Analista de datos - Tigo</li>
+        <li>Pasante en desarrollo web  - Universidad Distrital Francisco José de Caldas </li>
         <li>Desarrollador Web - Enlace Global Internacional SAS</li>
       </ul>
   )}
@@ -61,13 +61,10 @@ const About = () => {
     </Image>
     <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
       <h2 className='text-4xl font-bold text-white mb-4'>Sobre mi</h2>
-      <p className='text-base lg:text-lg'>Estudiante de programación apasionado por la tecnología y el
-      desarrollo de software. Poseo sólidos conocimientos en lenguajes
-      de programación como Python, Java, Javascript, etc                                                                                                   . Soy una
-      persona creativa, autodidacta y orientada a resultados, con
-      habilidades analíticas y de resolución de problemas. Busco
-      oportunidades para seguir aprendiendo y creciendo en el campo de
-      la programación.
+      <p className='text-base lg:text-lg'>Soy tecnólogo en Sistematización de Datos con formación en Ingeniería Telemática. Tengo experiencia en análisis de datos, 
+desarrollo web y computación en la nube, con conocimientos en Python, SQL, Django, React y Oracle. Aplicando Scrum, 
+desarrollo soluciones tecnológicas escalables para optimizar procesos. Comprometido con la mejora continua y la 
+innovación digital. 
       </p>
       <div className='flex flex-row justify-start mt-8'>
         <Tabbtn selectTab={() => 

@@ -23,6 +23,15 @@ const Pdata = [
         gitUrl: "https://github.com/Quilesprism/Clean_web",
         previewUrl: "https://github.com/Quilesprism/Clean_web"
     },
+    {
+        id: 3,
+        title: "Proyecto de graduación",
+        description: "Integración de un sistema de visualización de grafos para la representación estadística de trayectorias de aprendizaje de juegos matemáticos",
+        image: "/images/projects/3.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Quilesprism/Juegos-matematicos",
+        previewUrl: "https://github.com/Quilesprism/Juegos-matematicos"
+    }
     
 
 ]
